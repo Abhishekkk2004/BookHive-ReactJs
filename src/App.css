@@ -1,38 +1,359 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F3EFE0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputBox{
+  
   display: flex;
+  width: 20%;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.search{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+     /* border: 1px solid black; */
+     color:#DFE5E1;
+     background-color: #F24C00;
+     font-size: 1.2rem;
+     padding: 0.3rem;
+}
+#cartName{
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.cart{
+  font-size: 1.2rem;
+  width: 8%;
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "ABeeZee", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #3d3b3b;
+    /* border: 1px solid red; */
+}
+
+.first{
+  padding:10px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 17vh;
+  padding-right: 110px;
+  /* border:1px solid red; */
+}
+#logo{
+  font-family: "Henny Penny", system-ui;
+    font-weight: bold;
+    /* border:1px solid black; */
+    color:#F24C00;
+    
+    font-style: normal;
+    font-size: 2.5rem;
+    display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.inputFirst{
+  height: 2rem;
+  width:100%;
+  text-align: center;
+  background-color: #CFDAD4;
+  border: none;
+}
+/* ***********************
+ */
+ .zero{
+  height: 6vh;
+  background-color:#BBC5C0 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .zero p{
+  background-color: #BBC5C0;
+  color:#4F4C4C;
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+ }
+.innerZero{
+  background-color: #BBC5C0;
+  width:30%;
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* *******************
+ */
+ .second{
+  height: 8vh;
+  background-color: black;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .innerSecond{
+  background-color: black;
+  color: white;
+  width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .innerSecond p{
+  background-color: black;
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+ }
+/* ****************88
+ */
+ .third{
+  height:15vh;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ .innerThird{
+  width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .box{
+display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #3d3b3b;
+ }
+ .icon{
+  font-size: 1.9rem;
+  margin: 8px;
+ }
+ .lineOneThird{
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 5px;
+    font-size: 0.8rem;
+ }
+ .lineTwoThird{
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.6rem;
+    margin: 5px;
+ }
+ /* ******************* */
+ .fourth{
+  height: 90vh;
+  background:url(background\ \(1\).jpg);
+  background-size: cover;
+ }
+ .fourthBox{
+  
+  height: 90%;
+  width: 40%;
+  background-color: #cbc6b3;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
+ .fourthBox span{
+    background-color: #cbc6b3;
+ }
+ .font1{
+  font-size: 4.5rem;
+  margin: 1rem;
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #cbc6b3;
+ }
+ .font2{
+  font-size: 4.1rem;
+  margin: 0.5rem;
+  font-family: "Slackside One", cursive;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #cbc6b3;
+ }
+ .font3{
+  font-size: 2rem;
+  margin: 0.5rem;
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #cbc6b3;
+      color: #3d3b3b;
+ }
+ .button1{
+  font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  margin-top: 4rem;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40%;
+  border-radius: 1rem;
+  background-color: #F24C00;
+  color: #DFE5E1;
+  font-size: 1.2rem;
+ }
+ /* *************8 */
+ .red{
+  color:red;
+ }.green{
+  color:green;
+ }
+ .yellow{
+  color:yellow;
 
-.App-link {
-  color: #61dafb;
-}
+ }
+ .orange{
+  color:orange;
+ }
+ .blue{
+  color:blue;
+ }
+ .violet{
+  color:violet;
+ }
+ .purple{
+  color:purple;
+ }
+ .pink{
+  color: pink
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ /* ******************
+  */
+  .fifth{
+    margin: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .heading{
+    margin: 2rem 0 1rem 0;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bruno Ace SC", sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 2.5rem;
   }
+  .card1{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+      height: 420px;
+      /* background-color: rgb(3, 38, 85); */
+      border: 1px solid gray;
+      border-radius: 4px;
+      padding: 10px;
+      margin: 20px;
+      padding: 10px;
+  }
+  .card1 img{
+    width: 140px;
+  }
+  #cardTitle{
+    font-family: "ABeeZee", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+  margin: 0.5rem;
+      font-size: 1rem;
+  }
+  #cardAuthor{
+    font-family: "ABeeZee", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      margin: 0.5rem;
+        font-size: 0.8rem;
+  }
+  .button2{
+    font-family: "ABeeZee", sans-serif;
+      position: absolute;
+      top: 375px;
+      font-weight: 600;
+      
+      font-style: normal;
+      margin-top: 2rem;
+      border: none;
+      cursor: pointer;
+      height: 30px;
+      width: 60%;
+      border-radius: 1rem;
+      background-color: #F24C00;
+      color: #DFE5E1;
+      font-size: 0.9rem;
+  }
+  #Prize{
+    font-weight: bold;
+    position: absolute;
+    top: 385px;
+    font-size: 1.1rem;
+    color: red;
+  }
+  .cartCount{
+    color: #F24C00;
+    font-weight: bolder;
+    font-size: 0.9rem;
+  }
+  .Contact{
+    background-color: #fff8df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactHeading{
+    margin: 1.5rem;
+    background-color: #fff8df;
+    font-size: 3rem;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: bolder;
+
+}
+.Contact label{
+  font-size: 1.5rem;
+  background-color: #fff8df;
+  font-family: "Bruno Ace SC", sans-serif;
+    font-style: normal;
+    margin: 1rem;
+}
+.Contact input{
+  font-size: 1.2rem;
+    background-color: #fff8df;
+    height: 1.8rem;
+    width: 60%;
+    text-align: center;
+    margin: 1rem;
+}
+.formgroup{
+  background-color: #fff8df;
+  /* border: 1px solid red; */
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
 }
